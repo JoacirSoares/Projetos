@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Minha vida prosissional</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/styles/estilo.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="_imagens/favicon.ico" type="image/x-icon">
+</head>
+<body onload="comprimento()">
+	<script>
+		function comprimento(){
+			var horario = window.document.querySelector('span#horario')
+			var agora = new Date()
+			var horas = agora.getHours()
+
+			if (horas < 6){
+				horario.innerHTML = `Boa madrugada!`
+			} else if (horas < 12){
+				horario.innerHTML = `Bom dia!`
+			} else if (horas < 18){
+				horario.innerHTML = `Boa tarde!`
+			} else if (horas < 24){
+				horario.innerHTML = `Boa noite!`
+			}
+		}
+	</script>
+	<div id="interface">
+		<header id="cabecalho">	
+			<hgroup>
+				<h1>Pagina inicial</h1>
+				<h2>Aqui você encontrará o que precisa saber sobre mim</h2>
+			</hgroup>
+
+			<nav id="menu">
+				<ul type="disc">
+					<li><a href="/MeuProjeto" target="_self" rel="next">Home</a></li>
+					<li><a href="curriculo.html" target="_self" rel="next">Curriculo</a></li>
+					<li><a href="meus-professores.html" target="_self" rel="next">Meus professores</a></li>
+					<li><a href="outros-sites.html" target="_self" rel="prev">Outros sites</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<figure class="foto-legenda">
+			<img id="icone" src="media/minha-foto.jpg">
+			<div id="diferenca">
+				<figcaption>
+					<h3>Joacir Soares</h3>
+				</figcaption>
+			</div>
+		</figure>
+
+		<section id="corpo">
+			<article id="noticia-principal">
+				<header id="cabecalho-2">
+					<hgroup>
+						<h3>Joacir Soares > minha vida</h3>
+						<h1>Minha vida</h1>
+						<h2>por Joacir Soares</h2>
+						<h3 class="direita">Atualizado em 10/03/2021</h3>
+					</hgroup>
+				</header>
+				<div class="grupo-de-texto" id="primeiro">
+					<h3>A pessoa que sou</h3>
+					<p><span id="horario"></span> Meu nome é Joacir, venho de uma pequena cidade da Chapada Diamantina. Desde de criança tenho um grande entusiamo pela ciência e tecnologia. Atualmente estou com 18 anos e desde o começo de 2021 começei a estudar pra ser um profissional Front-End, aprendendo primeiro a linguagem de marcação de hipertexto(Hyper Text Markup Language) e Folhas de Estilo em Cascatas(Cascading Style Sheets), no exato momento estou começando a estudar a linguagem de progamação JavaScript.</p><br>
+				</div>
+				<div class="grupo-de-texto" id="segundo">
+					<h3>Minhas solf skills</h3>
+					<p>Me considero uma pessoa que tem a habilidade de dialogar com colegas de trabalho para evitar conflitos, resolver divergências; ser uma pessoa flexivel as adversidades, tendo em mente o objetivo final; trabalhar bem em grupo, sendo esse meu maior ponto forte, até por isso gosto de ficar jogar online; coloco minha ética como meu Deus, tendo empatia quando se dever ter; ser esforçado, e ter um bom pensamento critico.</p>
+				</div>
+			</article>
+		</section>
+		<aside id="lateral">
+			<div class="grupo-de-texto" id="terceiro">
+				<h3>Hobbies</h3>
+				<p>No meu tempo livre, o que mais gosto de fazer é conversar com meus amigos, games, praticar esportes, estudar e assistir fimes, series, animes, sendo que este último eu consumo com mais frequência. Eu sou uma pessoa de poucos amigos, mas são companheiros fiéis, a quem posso contar sempre. Sou um grande fã dos games coperativos, pois eles poroporcionam uma interatividade muito valiosa, sendo que, durante a jogatina, podemos estar dialogando sobre diversos assuntos e temas: Assuntos acadêmicos, atualidades, política e cotidiano, ou seja, o jogo acaba se tornando apenas um pretexto para assuntos mais profundos, contundentes e necessários. Apesar de ser um entusiasta de games não sou sedentário, entendo da importância que é nossa saúde, por isso, costumo praticar esportes com uma certa frequência. Na questão dos estudos, minha preferência é coisas relacionadas a tecnologia(como a programação), história, filosofia, e as áreas de exatas, amo ficar informado sobre o mundo e suas principais mudanças tanto no quesito político quantos nas inovações.</p>
+			</div>
+			<div class="grupo-de-texto" id="quarto">
+				<h3>Meus objetivo</h3>
+				<p>Meu objetivo principal ultimamente, é crecer no âmbito profissional e ter poder de proteger as pessoas que me é importante, sempre tendo em vista a minha melhora e minha felicidade.</p>
+			</div>
+		</aside>
+		
+		<footer id="rodape">
+			<p>Copyright &copy; 2021 - by Joacir Soares<br>
+			<a id="primeiro" href="https://www.instagram.com/joacir_soares/" rel="external" target="_blank">Instagram</a> |
+			<a href="https://www.linkedin.com/in/joacir-soares-32aa00182/" rel="external" target="_blank">Linkedin</a> |
+			<a href="https://discord.gg/EYUUqU5e" rel="external" target="_blank">Discord</a> |
+			<a href="https://www.youtube.com/channel/UCp9y8nnkKMtZGD6N1v8e5JA/videos" rel="external" target="_blank">Youtube</a></p>
+		</footer>
+	</div>
+</body>
+</html>

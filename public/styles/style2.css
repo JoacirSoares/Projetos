@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'open-sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+/* Formatando divs gerais*/
+
+.container{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Formatando o header*/
+
+.header{
+    background-image: linear-gradient(to right,#345678, #7c7c7c);
+    padding: 10px 50px 10px 0;
+}
+
+.logo-1{
+    float: left;
+    width: 155px;
+    margin-left: 15%;
+}
+
+.logo-2{
+    float: right;
+    width: 155px;
+    margin: 5px 11% 0 0;
+}
+
+.logo-1 img{
+    width: 155px;
+}
+
+.logo-2 img{
+    width: 155px;
+}
+
+/* Formatando o section*/
+
+.section{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.section .container{
+    background-image: url(/media/Notebook-01.jpg);
+    height: 550px;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 1% 2%;
+}
+
+/*Formatando o form*/
+
+.container-form{
+    float: right;
+    width: 400px;
+    background-color: #ffffff90;
+    height: 100%;
+    border-radius: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 1px 1px 4px rgb(138, 143, 142);
+}
+
+.container-form h2{
+    font-weight: normal;
+    padding: 10px 60px;
+    font-size: 22px;
+    background-color: rgba(35, 69, 103,.9);  
+    color: #ffffff;
+    border-radius: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+form{
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+p.input{
+    margin: 10px 0 5px 0;
+    background-color: rgb(138, 143, 142);
+    color: #ffffff;
+    max-width: 60px;
+    border-radius: 10px;
+    padding: 0 4px;
+}
+
+input{
+    height: 35px;
+    padding: 0 0 0 8px;
+    font-size: 16px;
+    outline: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input[type=submit]{
+    max-width: 200px;
+    margin: 5px 0 15px 0;
+    background-color: rgb(3, 60, 80);
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#campos{
+    color: rgb(55, 56, 56);
+}
+
+/* Formatando a interceção*/
+
+.intersection{
+    width: 80%;
+    background-color: rgb(39, 77, 116);
+    margin: 0 auto;
+    padding: 2% 15%; 
+    color: #ffffff;
+}
+
+.seta{
+	position: relative;
+	bottom: 60px;
+	left: 50%;
+	width: 64px;
+	height: 14px;
+	transform: translateX(-50%);
+}
+
+.intersection h2{
+    font-weight: normal;
+    margin: 0px 0 20px 0;
+}
+
+/* Formatando o mosaico*/
+
+.mosaico{
+    width: 80%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.flex-mosaico{
+    width: 100%;
+    display: flex;
+}
+
+.item-mosaico-1{
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+}
+
+.item-mosaico-2{
+	padding: 100px 40px;
+	width: 40%;
+	background-color: #4683AB; 
+}
+
+.item-mosaico-2 p{
+	color: white;
+	text-align: center;
+}
+
+.item-mosaico-2 h2{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-family: both;
+}
+
+/*Formatando o footer*/
+
+footer{
+    background-image: linear-gradient(to left,#345678, #7c7c7c);
+    padding: 2% 0px 2% 7.5%;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p{
+	margin-left: -54px;
+	text-align: center;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Formatando as media screen*/
+
+@media screen and (max-width: 1040px){
+    .seta{
+        bottom: 80px;
+    }
+    .intersection{
+        padding: 6% 15%;
+    }
+    .logo-1{
+        margin: 0 0 0 2%;
+    }
+    .logo-2{
+        margin: 5px 2% 0 0;
+    }
+    .mosaico{
+        width: 100%;
+    }
+    .section .container{
+        width: 100%;
+    }
+    .intersection{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .section{
+        padding: 0;
+    }
+    .seta{
+        bottom: 62px;
+    }
+    .section .container{
+        background-image: url(/media/notebook0.jpg);
+        text-align: center;
+        height: 620px;
+        padding: 50px 0;
+    }
+    .container-form{
+        float: none;
+        display: inline-block;
+    }
+    .flex-mosaico{
+        display: block;
+    }
+    .item-mosaico-1{
+       width: 100%;
+       padding: 30% 0;
+       max-height: 300px;
+    }
+    .item-mosaico-2{
+        width: 100%;
+        padding: 45px;
+        text-align: center;
+     }
+     .item-mosaico-2 p{
+        max-width: 400px;
+        display: inline-block;
+        margin: 10px;
+     }
+     footer{
+        padding: 2% 0px 2% 14%;
+     }
+}

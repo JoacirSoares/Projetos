@@ -1,0 +1,1127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open-sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*Divs gerais*/
+
+.container{
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.center{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Formatando o header-principal*/
+
+.header-principal{
+    background-color: #ffffff;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #54b4d2;
+}
+
+.logo-header{
+    float: left;
+}
+
+.logo-header img{
+    height: 48px;
+}
+
+.menu{
+    float: right;
+    display: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 4px;
+}
+
+.right{
+    text-align: right;
+}
+
+.navigation-header{
+    display: inline-block;
+    height: 48px;
+}
+
+.navigation-header li{
+    display: inline-block;
+    padding: 12px;
+    margin: 0 4px;
+    vertical-align: top;
+}
+
+.navigation-header a{
+    text-decoration: none;
+}
+
+.container-a{
+    color: rgb(145, 144, 144);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-a:hover{
+    color: #fdba63;
+}
+
+.espaço-a{
+    display: none;
+    text-align: center;
+    padding: 10px 5px 0 5px;
+}
+
+.espaço-a a{
+    display: inline-block;
+    color: rgb(145, 144, 144);
+}
+
+.espaço-a a:hover{
+    color: #fdba63;
+}
+
+/*Formatando o navigation-header2*/
+
+.navigation-header-2{
+    display: none;
+}
+
+/*Formatando o section-principal*/
+
+.section-principal{
+    width: 100%;
+    padding: 120px 90px 30px 90px;
+    border-bottom: 2px solid #f69522;
+}
+
+/*Formatando a imagem sites*/
+
+.sites{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+.sites img{
+    width: 400px;
+}
+
+.container-principal{
+    float: left;
+}
+
+/*Formatando o container-1*/
+
+.container-1{
+    width: 600px;
+    padding: 40px 40px 40px 0;
+}
+
+.container-1 h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #a6afc4;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-1 h1 span{
+    color: #f69522;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-1 p{
+    font-size: 20px;
+}
+
+/*Formatando o container-2*/
+
+.container-2{
+    width: 600px;
+}
+
+.container-2 a{
+    text-decoration: 0;
+    padding: 20px;
+}
+
+.linkedin a{
+    padding: 20px 50px;
+    float: left;
+    color: #ffffff;
+    background-color: #f69522;
+    border: 2px solid #cc7e1e;
+}
+
+.github a{
+    float: right;
+    border: 2px solid black;
+    background-color: #ffffff;
+    color: black;
+}
+
+.container-2 a:hover{
+    color: #ffffff;
+    background-color: black;
+    border: 2px solid black;
+    transition: 1.2s;
+    outline: 0;
+}
+
+.container-2 h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+/*Formatando a imagem de fundo*/
+
+.site-background{
+    background-image: url(/media/site-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/*Formatando o Section Secundário*/
+
+.section-secondary{
+    padding: 120px;
+    width: 100%;
+    background-color: rgba(31, 29, 29, 0.75);
+    border-top: 2px solid rgba(31, 29, 29, 0.8);
+    color: #fff;
+}
+
+.section-1{
+    float: left;
+    width: 520px;
+    font-weight: normal;
+}
+
+.section-1 h2{
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.section-1 h2 p{
+    color: #f69722f3;
+}
+
+.section-2{
+    font-size: 18px;
+    float: right;
+    width: 550px;
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+
+.youtube{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.youtube a{
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: rgba(31, 29, 29, 0.6);
+    color: #fff;
+    text-decoration: 0;
+    padding: 20px;
+}
+
+.youtube a:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: 1.2s;
+    outline: 0;
+    color: black;
+}
+
+.youtube h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+/*Formatando o section-tertiary*/
+
+.section-tertiary{
+    padding: 150px 30px 0 30px;
+    width: 100%;
+    background-color: #eef0f3;
+    text-align: center;
+}
+
+.container-tertiary{
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.life{
+    width: 50%;
+    float: left;
+}
+
+.life h2{
+    padding: 0px 0 25px 0;
+}
+
+.life p{
+    font-size: 18px;
+    padding-bottom: 150px;
+}
+
+.instagram a{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: 0;
+    padding: 20px;
+}
+
+.instagram a:hover{
+    color: #ffffff;
+    background-color: black;
+    border: 2px solid black;
+    transition: 1.2s;
+    outline: 0;
+}
+
+.section-life h2{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.titles h2{
+    padding: 0px 0 25px 0;
+}
+
+/*Formatando o Footer-principal*/
+
+.footer-principal{
+    width: 100%;
+    padding: 20px 20px;
+    height: 150px;
+    background-color: black;
+    border-top: 10px solid #1d1e1f;
+    border-bottom: 1px solid #f69522;
+}
+
+.footer-fim{
+    float: left;
+    width: 33.333%;
+    height: 100px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer-logo img{   
+    height: 48px
+}
+
+.footer-fim p{
+    padding-top: 14px;
+    color: #fff;
+}
+
+.footer-fim p:nth-child(2){
+    position: absolute;
+    width: 100%;
+}
+
+.footer-fim a{
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    padding: 16px 40px;
+    background-color: rgb(75, 152, 155);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    border: 1px solid rgb(38, 156, 160);
+}   
+
+.footer-fim a:hover{
+    border-radius: 2px;
+    color: #f69522;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+/*Formatando as media sreen*/
+
+@media screen and (max-width: 1350px){
+    .section-secondary{
+        padding: 60px;
+    }
+    .section-tertiary{
+        padding: 60px;
+    }
+    .life p{
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    /*Formatando o header-principal*/
+
+    .header-principal{
+        padding: 0px;
+    }
+
+    /*Formatando o section-principal*/
+
+    .sites{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .sites img{
+        width: 300px;
+    }
+    
+    .container-principal{
+        width: 500px;
+    }
+    .container-1{
+        width: 500px;
+        padding: 0px 40px 40px 0;
+    }
+    
+    .container-1 h1{
+        font-size: 40px;
+        padding: 0 0 15px 0;
+    }
+    
+    .container-2{
+        width: 444px;
+    }
+    
+    .container-2 a{
+        padding: 12px;
+    }
+    
+    .linkedin a{
+        padding: 12px 24px;
+    }
+    
+    .container-2 h2{
+        font-size: 18px;
+    }
+
+    /*Formatando o section-secondary*/
+
+    .section-secondary{
+        padding: 50px 105px;
+    }
+    
+    .section-1{
+        width: 400px;
+    }
+    
+    .section-1 h2{
+        font-size: 28px;
+    }
+    
+    .section-2{
+        font-size: 16px;
+        width: 400px;
+        padding: 6px 0 0 0;
+    }
+    
+    .youtube{
+        margin-top: 10px;
+    }
+    
+    .youtube a{
+        padding: 12px 24px;
+    }
+
+    .youtube h2{
+        font-size: 18px;
+    }
+
+    /*Formatando o section-tertiary*/
+
+    .section-tertiary{
+        padding: 50px;
+    }
+
+    .life{
+        width: 50%;
+    }
+
+    .life h2{
+        padding: 0px 0 20px 0;
+    }
+
+    .pad1{
+        padding-left: calc(61% + 5px);
+    }
+
+    .pad2{
+        padding-left: 60%;
+    }
+
+    .life p{
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+
+    .instagram a{
+        padding: 12px 20px;
+    }
+
+    .section-life h2{
+        font-size: 22px;
+    }
+
+    .titles h2{
+        padding: 0px 0 30px 0;
+    }   
+
+    /*Formatando o footer-principal*/
+
+    .footer-principal{
+        padding: 5px;
+        height: 120px;
+        background-color: black;
+    }
+    
+    .footer-fim a{
+        padding: 14px 30px;
+        font-size: 16px;
+    }   
+}
+
+@media screen and (max-width: 1085px){
+
+    .navigation-header{
+        display: none;
+    }
+    
+    .menu{
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin: 5px;
+        padding: 4px;
+    }
+    
+    .navigation-header-2{
+        margin: 0 auto;
+        width: 100%;
+        padding: 1% 2%;
+        padding-top: 65px;
+    }
+    
+    .navigation-header-2 li{
+        list-style: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 17px;
+        line-height: 32px;
+        background-color: rgba(0, 0, 0, 0.9);
+        margin: 10px 0;
+    }
+    
+    .navigation-header-2 a{
+        color: #929aad;
+        text-decoration: 0;
+    }
+    
+    .navigation-header-2 .a3{
+        color: #929aad;
+        text-decoration: 0;
+    }
+    
+    .navigation-header-2 a.a1{
+        color: #ffd089;
+    }
+    
+    .container-sites-2{
+        width: 100%;
+        font-size: 15px;
+        display: none;
+    } 
+
+    .outros-sites-2{
+        padding: 5px 0;
+        background-color: #fff;
+    }
+
+    .outros-sites-2 .espaço-a{
+        display: block;
+    }
+    
+    .navigation-header-2 .a3:hover{
+        color: #f69522;
+        cursor:  pointer;
+    }
+    
+    .navigation-header-2 a:hover{
+        color: #f69522;
+    }
+
+    /*Formatando o section-principal*/
+
+    .section-principal{
+        padding: 110px 30px 10px 10px;
+    }
+
+    /*Formatando o section-secondary*/
+
+    .section-secondary{
+        padding: 40px 30px;
+    }
+
+    /*Formatando o section-tertiary*/
+
+    .section-tertiary{
+        padding: 40px 0;
+    }
+
+    .container-tertiary{
+        padding: 0 30px;
+    }
+
+    .life p{
+        padding-bottom: 30px;
+    }
+
+    .instagram a{
+        padding: 12px 20px;
+    }
+
+    .pad1{
+        padding-left: calc(55% + 5px);
+    }
+
+    .pad2{
+        padding-left: 55%;
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    /*Formatando o header-principal*/
+
+    .header-principal{
+        padding: 5px;
+    }
+
+    .container-sites{
+        width: 90px;
+        position: absolute;
+        padding: 2px 10px;
+        font-size: 15px;
+        opacity: 0;
+        right: 35px;
+    }
+
+    .container-sites a{
+        padding: 0;
+        border: 0;
+    }
+
+    /*Formatando o section-principal*/
+
+    .section-principal{
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .sites{
+        height: 400px;
+        width: 400px;
+        float: none;
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    .sites img{
+        width: 400px;
+    }
+
+    .container-principal{
+        width: 600px;
+        float: none;
+        display: inline-block;
+    }
+
+    /*Formatando o container-1*/
+
+    .container-1{
+        width: 600px;
+        padding: 40px 40px 40px 0;
+    }
+
+    .container-1 h1{
+        font-size: 55px;
+        padding-left: 40px;
+    }
+
+    .container-1 p{
+        text-align: center;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+
+    /*Formatando o container-2*/
+
+    .container-2{
+        width: 600px;
+    }
+
+    .container-2 a{
+        padding: 20px;
+    }
+
+    .linkedin a{
+        padding: 20px 50px;
+    }
+
+    .container-2 h2{
+        font-size: 22px;
+    }
+
+    /*Formatando a imagem de fundo*/
+
+    .site-background{
+        height: 100%;
+    }
+
+    /*Formatando o Section Secundário*/
+
+    .section-secondary{
+        padding: 100px;
+        text-align: center;
+    }
+
+    .section-1{
+        float: none;
+        display: inline-block;
+        width: 600px;
+        padding: 20px 0;
+    }
+
+    .section-1 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .section-2{
+        padding: 20px 0;
+        font-size: 18px;
+        text-align: center;
+        float: none;
+        display: inline-block;
+        width: 500px;
+    }
+
+    .youtube{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .youtube a{
+        padding: 20px;
+    }
+
+    .youtube h2{
+        font-size: 22px;
+    }
+
+    /*Formatando o section-tertiary*/
+
+    .section-tertiary{
+        padding: 90px 30px 0 30px;
+    }
+
+    .container-tertiary{
+        width: 100%;
+        padding: 0px 80px;
+    }
+
+    .section-life h2{
+        font-weight: normal;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .life{
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+
+    .abra{
+        width: 100%;
+        padding: 0 0 80px 0;
+        float: none;
+        display: inline-block;
+    }
+
+    .life h2{
+        padding: 0px 0 25px 0;
+        display: inline-block;
+    }
+
+    .life p{
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    .titles{
+        padding-bottom: 10px;
+    }
+
+    .titles h2{
+        padding: 0px 0 25px 0;
+    }
+
+    .pad1{
+        display: inline-block;
+        padding: 0;
+    }
+
+    .instagram{
+        display: inline-block;
+    }
+
+    .pad2{
+        padding: 0;
+    }
+
+    .instagram a{
+        padding: 16px 32px;
+    }
+
+    .instagram h2{
+        font-size: 24px;
+    }
+
+    /*Formatando o Footer-principal*/
+
+    .footer-principal{
+        width: 100%;
+        padding: 20px 20px 20px 0;
+        height: 150px;
+    }
+}   
+
+@media screen and (max-width: 815px){
+    /*Formatando o section-principal*/
+
+    .section-principal{
+        padding-top: 20px;
+    }
+
+    .container-principal{
+        width: 100%;
+        max-width: 500px;
+        float: none;
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    .container-1{
+        width: 100%;
+        max-width: 500px;
+        padding-top: 60px;
+    }   
+    
+    .container-1 h1{
+        font-size: 42px;
+        padding: 0 0 35px 40px;
+    }
+
+    .container-1 p{
+        text-align: center;
+        font-size: 28px;
+        padding: 0 0 10px 40px;
+    }
+    
+    .container-2{
+        width: 100%;
+        max-width: 500px;
+        padding: 0 30px 0 30px;
+    }
+    
+    .container-2 a{
+        padding: 8px;
+    }
+    
+    .linkedin a{
+        padding: 8px 16px;
+    }
+    
+    .container-2 h2{
+        font-size: 19px;
+    }
+
+    .sites{
+        height: 350px;
+        width: 350px;
+        float: none;
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    .sites img{
+        width: 350px;
+    }
+
+    .section-1{
+        width: 100%;
+    }
+
+    /*Formatando o section-tertiary*/
+
+    .section-tertiary{
+        padding: 110px 30px 0 30px;
+    }
+
+    .container-tertiary{
+        width: 100%;
+        padding: 0px 120px;
+    }
+
+    .section-life h2{
+        font-size: 28px;
+    }
+
+    .abra{
+        padding: 0 0 80px 0;
+    }
+
+    .life h2{
+        padding: 0px 0 25px 0;
+        display: inline-block;
+    }
+
+    .life p{
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    .titles h2{
+        padding: 0px 0 25px 0;
+    }
+
+    .pad1{
+        display: inline-block;
+        padding: 0;
+    }
+
+    .instagram{
+        display: inline-block;
+    }
+
+    .pad2{
+        padding: 0;
+    }
+
+    /*Formatando o Footer-principal*/
+
+    .footer-principal{
+        padding: 20px 0px 0px 0;
+        height: 130px;
+    }
+    
+    .footer-fim img{
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .footer-fim p{
+        padding-top: 7px;
+        color: #fff;
+        font-size: 12px;
+    }
+    .footer-fim a{
+        top: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }   
+}
+
+@media screen and (max-width: 700px){
+
+    .section-1{
+        width: 100%;
+    }
+
+    .section-2{
+        width: 100%;
+    }
+
+    .section-tertiary{
+        padding: 90px 0px 0 0px;
+    }
+
+    .container-tertiary{
+        padding: 0 40px;
+    }
+
+    .pad2 h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 684px){
+    .logo-header img{
+        height: 40px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .section-secondary{
+        padding: 80px 40px;
+    }
+
+    .container-sites{
+        width: 350px;
+        position: absolute;
+        padding: 2px 10px;
+        font-size: 15px;
+        opacity: 0;
+        right: 0px;
+    }
+    
+    .container-sites a{
+        padding: 2px;
+        border: 1px solid darkred;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .container-principal{
+        width: 100%;
+        max-width: 500px;
+        float: none;
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    .container-1{
+        width: 100%;
+        max-width: 500px;
+        padding-top: 60px;
+    }   
+    
+    .container-1 h1{
+        font-size: 36px;
+        padding: 0 0 35px 40px;
+    }
+
+    .container-1 p{
+        text-align: center;
+        font-size: 20px;
+        padding: 0 0 10px 30px;
+    }
+    
+    .container-2{
+        max-width: 500px;
+        padding: 0 44px 0 44px;
+    }
+
+    .container-2 h2{
+        font-size: 16px;
+    }
+
+    .sites{
+        height: 250px;
+        width: 250px;
+    }
+
+    .sites img{
+        width: 250px;
+    }
+
+    .section-secondary{
+        padding: 80px 40px;
+    }
+    
+    .section-1{
+        width: 100%;
+    }
+    
+    .section-1 h2{
+        font-size: 22px;
+    }
+    
+    .section-2{
+        font-size: 18px;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .youtube{
+        padding: 50px 0 30px 0;
+    }
+    
+    .youtube a{
+        padding: 10px 25px;
+    }
+    
+    .youtube h2{
+        font-size: 18px;
+    }
+
+    .section-tertiary{
+        padding: 100px 30px 0 30px;
+    }
+
+    .container-tertiary{
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .life h2{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .life p{
+        font-size: 18px;
+    }
+
+    .titles h2{
+        padding: 0px 0 25px 0;
+        font-size: 25px;
+    }
+
+    .instagram h2{
+        font-size: 18px;
+    }
+
+    .logo-footer img{
+        height: 35px;
+    }
+
+    #copyright p{
+        padding-top: 11px;
+        font-size: 8px;
+    }
+}
